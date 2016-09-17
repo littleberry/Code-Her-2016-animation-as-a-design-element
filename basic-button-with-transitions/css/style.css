@@ -1,19 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i';
 
 body {
-	font-size: 100%;
-	font-family: 'Rokkitt', "Trebuchet MS", Georgia, serif;
+	font-size: 150%;
+	font-family: "Open Sans", Verdana, Helvetica, sans-serif;
 	font-weight: 400;
-	background-color: #e4dde1;
+	background-color: #fff;
 	padding: 5%;
 	margin: 0;
 }
 
-div {
+nav {
 	width: 60%;
 	text-align: center;
   background-color: #ffffff;
-	border: .25em double #1aad00;
 	padding: 2em;
 	margin: 10% auto;
 	overflow: auto;
