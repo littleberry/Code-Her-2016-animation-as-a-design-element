@@ -1,0 +1,43 @@
+body {
+	font-size: 100%;
+	background-color: #fff;
+	margin: 2em;
+}
+
+.slideshow {
+	position: relative;
+	width: 37.5em;
+	height: 28.125em;
+	background-color: #fff;
+	border: .125em solid #c6ce55;
+	padding: .5em;
+
+}
+
+.slideshow img {
+	position: absolute;
+	animation-name: fade-out;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.slideshow img:nth-child(1) {
+	animation-delay: 10s;
+}
+.slideshow img:nth-child(2) {
+	animation-delay: 5s;
+}
+.slideshow img:nth-child(3) {
+	animation-delay: 0s;
+}
+
+@keyframes fade-out {
+	0% {
+		opacity: 1;	
+	}
+	
+	100% {
+		opacity: 0;
+	}
+}

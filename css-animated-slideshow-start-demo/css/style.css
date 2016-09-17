@@ -1,0 +1,19 @@
+body {
+	font-size: 100%;
+	background-color: #fff;
+	margin: 2em;
+}
+
+.slideshow {
+	position: relative;
+	width: 37.5em;
+	height: 28.125em;
+	background-color: #fff;
+	border: .125em solid #c6ce55;
+	padding: .5em;
+
+}
+
+.slideshow img {
+	position: absolute;
+}
