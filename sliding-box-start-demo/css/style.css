@@ -1,0 +1,12 @@
+body {
+	font-size: 100%;
+	background-color: #fff;
+	margin: 2em;
+}
+
+.box {
+	width: 10em;
+	height: 10em;
+	background-color: #dfe39f;
+	border: .125em solid #c6ce55;
+}

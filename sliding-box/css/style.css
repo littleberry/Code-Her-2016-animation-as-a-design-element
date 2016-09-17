@@ -1,0 +1,24 @@
+body {
+	font-size: 100%;
+	background-color: #fff;
+	margin: 2em;
+}
+
+.box {
+	width: 10em;
+	height: 10em;
+	background-color: #dfe39f;
+	border: .125em solid #c6ce55;
+	animation-name: slide-basic;
+	animation-duration: 2s;
+}
+
+@keyframes slide-basic {
+	0% {
+		transform: translateX(0);
+	}
+	
+	100% {
+		transform: translate(40em);
+	}
+}
