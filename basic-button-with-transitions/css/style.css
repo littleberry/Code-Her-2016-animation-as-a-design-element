@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+
+body {
+	font-size: 100%;
+	font-family: 'Rokkitt', "Trebuchet MS", Georgia, serif;
+	font-weight: 400;
+	background-color: #e4dde1;
+	padding: 5%;
+	margin: 0;
+}
+
+div {
+	width: 60%;
+	text-align: center;
+  background-color: #ffffff;
+	border: .25em double #1aad00;
+	padding: 2em;
+	margin: 10% auto;
+	overflow: auto;
+}
+
+.button:link,
+.button:visited{
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: hsla(330, 100%, 68%, 1);
+	border: .125em solid hsla(330, 100%, 60%, 1);
+	border-radius: 1em;
+	margin 1em auto;
+	padding: 1em;
+	transition-property: all;
+	transition-duration: 500ms;
+}
+
+.button:hover {
+	font-size: 1.6em;
+	background-color: hsla(330, 100%, 80%, 1);
+	border-color: hsla(330, 100%, 68%, 1);
+	transform: translate(-.0625em, -.125em);
+	box-shadow: .0625em .125em .25em hsla(330, 8%, 56%, 1);
+}
+
+.button:active {
+	font-size: 1.5em;
+	background-color: hsla(330, 100%, 50%, 1);
+	border-color: hsla(330, 100%, 68%, 1);
+	transform: translate(0, 0);
+	box-shadow: inset .0625em .125em .25em hsla(330, 100%, 45%, 1);
+}

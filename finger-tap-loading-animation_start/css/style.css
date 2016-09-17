@@ -1,0 +1,26 @@
+.hand {
+	width: 25%;
+	text-align: center;
+	margin: 20% auto;
+	padding: 0;
+	border-bottom: .25em solid #70e94e;
+}
+.thumb {
+	display: inline-block;
+	width: 1em;
+	height: 1.5em;
+	background-color: #bb357a;
+	margin: 1em .75em 0 .25em;
+	border-left: .5em solid #dc84b1;
+	border-radius: 25% 15% 15% 40%;
+}
+.finger {
+	display: inline-block;
+	width: 1.5em;
+	height: 2.5em;
+	background-color: #bb357a;
+	margin: 0 .25em;
+	border-bottom: .5em solid #dc84b1;
+	border-left: .25em solid #ab3070;
+	border-radius: 15% 15% 25% 25%;
+}
