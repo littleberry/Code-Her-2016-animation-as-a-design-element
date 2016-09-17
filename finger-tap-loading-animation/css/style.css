@@ -1,5 +1,6 @@
 .hand {
 	width: 25%;
+	min-width: 15em;
 	text-align: center;
 	margin: 20% auto;
 	padding: 0;
